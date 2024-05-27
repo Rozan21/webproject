@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi Spot</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Sushi<span>Spot</span></a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome to Sushi Spot</h3>
+        <h1>Fresh Sushi made with love</h1>
+        <p>We are dedicated to providing the freshest and 
+            most delicious sushi in town. Order and enjoy a wonderful dining experience with us!</p>
+        </div>
+        <section class="about" id="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>At Sushi Spot, we use only the highest ingredients to create a variety of sushi rolls and sets that 
+                    cater all tastes. Whether you are a sushi lover or trying sushi for 
+                    the first time, our menu offers something for everyone.
+                    Our mission is to provide an exceptional dining experience that combines authentic Japanese flavors with 
+                    a modern twist. We believe in the art of sushi-making and strive to bring a piece of Japan 
+                    to your plate. Thank you for choosing Sushi Spot, we look forward to serving you and sharing our love 
+                    for sushi in every bite. 
+                </p>
+                </div>
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <div class="contact-content">
+            <p>If you have any questions or would like to place and order, 
+                please contact us using the form below or call us at +961 76317898.</p>
+                <form action="feedback.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <footer id="viewmore">
+        <p><a href="#">Home</a> | <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a> | <a href="#">Contact Us</a></p> <br/>
+        <p>Copyright &copy;  RM  </p> 
+    </footer>
+    
+</body>
+</html>
